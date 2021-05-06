@@ -59,3 +59,11 @@ The code can also use multiple CPU or GPU. For example, to run the code using a 
 ```python
 grav = ph4(converter,number_of_workers=8, mode='gpu')
 ```
+
+---
+
+### Output 
+
+The code generates two different output files:
+* properties.csv - This file contain the properties of each star particles e.g., mass, radius, accretion rate, velocity over time.
+* output.csv - This file contain the global property of the cluster e.g., gas mass, stellar mass, number of collisions, evolution of the mass of the most massive star etc. 
